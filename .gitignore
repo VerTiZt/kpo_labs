@@ -1,0 +1,24 @@
+# Сборка Maven (скомпилированные классы и .jar файлы)
+target/
+
+# Настройки сред разработки (IntelliJ IDEA, VS Code, Eclipse)
+.idea/
+*.iml
+.vscode/
+*.iws
+*.classpath
+*.project
+*.settings/
+
+# Системные файлы macOS и Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Локальная база данных SQLite (чтобы не затирать данные других разработчиков)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# Временные файлы Word (на случай, если открыты отчеты .docx)
+~$*.docx

@@ -1,0 +1,17 @@
+# Maven
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# SQLite runtime database
+data/*.db
+data/*.db-shm
+data/*.db-wal
